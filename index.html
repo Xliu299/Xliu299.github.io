@@ -348,66 +348,95 @@
 <p>从网站<a href="https://gitforwindows.org/" target="_blank" rel="noopener">https://gitforwindows.org/</a>下载git，下载安装一路next即可。</p>
 <p>因为hexo是基于node.js的，故需要从网站<a href="https://nodejs.org/en/" target="_blank" rel="noopener">https://nodejs.org/en/</a> 上下载，下载长期支持版既LTS版即可。下载后安装，一路next即可。</p>
 <p>选择合适的储存位置创建一个文件夹作为博客信息储存文件夹，进入文件夹，鼠标右键选择打开Git Bash Here命令行。</p>
-<p>输入node -v 查看版本信息，再输入npm -v查看版本信息，以确定安装完成。</p>
+<p>输入：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">node -v</span><br></pre></td></tr></table></figure>
+
+<p> 查看版本信息，再输入：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm -v</span><br></pre></td></tr></table></figure>
+
+<p>查看版本信息，以确定安装完成。</p>
 <p>因为npm在国外太慢了，调整数据源选择淘宝源，故在命令行中输入：</p>
-<p>npm install -g cnpm –registry=<a href="https://registry.npm.taobao.org" target="_blank" rel="noopener">https://registry.npm.taobao.org</a></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install -g cnpm --registry&#x3D;https:&#x2F;&#x2F;registry.npm.taobao.org</span><br></pre></td></tr></table></figure>
+
 <p>然后使用命令：</p>
-<p>cnpm -v 查看版本信息，出现版本信息既安装完成。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cnpm -v</span><br></pre></td></tr></table></figure>
+
+<p>查看版本信息，出现版本信息既安装完成。</p>
 <p>输入命令：</p>
-<p>cnpm install hexo-cli -g </p>
-<p>进行hexo安装，同样输入 hexo -v 查看版本，以确定是否下载完成。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cnpm install hexo-cli -g</span><br></pre></td></tr></table></figure>
+
+<p>进行hexo安装，同样输入 ：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo -v</span><br></pre></td></tr></table></figure>
+
+<p>查看版本，以确定是否下载完成。</p>
 <p>输入命令： </p>
-<p>hexo init</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo init</span><br></pre></td></tr></table></figure>
+
 <p>   初始化博客，会生成一堆文件，各文件作用如下：</p>
 <ul>
-<li><p>node_modules：nodejs的依赖包，各种插件会被安装在里面；</p>
+<li><p><code>node_modules</code>：nodejs的依赖包，各种插件会被安装在里面；</p>
 </li>
-<li><p>scaffolds：页面模板；</p>
+<li><p><code>scaffolds</code>：页面模板；</p>
 </li>
-<li><p>source：资源，这里面的内容将会按照页面分别，未来也将会呈现在生成的静态页面中；</p>
+<li><p><code>source</code>：资源，这里面的内容将会按照页面分别，未来也将会呈现在生成的静态页面中；</p>
 </li>
-<li><p>theme：存放主题的文件夹，默认安装 landscape 主题；</p>
+<li><p><code>theme</code>：存放主题的文件夹，默认安装 landscape 主题；</p>
 </li>
-<li><p>_config.yml：配置文件，具体内容将会在以后的博文中详细介绍。</p>
+<li><p><code>_config.yml</code>：配置文件，具体内容将会在以后的博文中详细介绍。</p>
 </li>
 </ul>
-<p>输入命令：hexo s 运行本地服务器，运行完成会弹出地址，一般是: localhost:4000，打开浏览器输入该地址就可以查看到你的博客初始的样子，会自动生成一篇helloworld博文。</p>
-<p>至此，博客算是初步搭建完成，接下来就是部署到远端。</p>
+<p>输入命令：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo s</span><br></pre></td></tr></table></figure>
+
+<p>运行本地服务器，运行完成会弹出地址，一般是: localhost:4000，打开浏览器输入该地址就可以查看到你的博客初始的样子，系统会自动生成一篇helloworld博文。</p>
+<p><strong>至此，博客算是初步搭建完成，接下来就是部署到远端。</strong></p>
 <p>按原方法打开命令行，输入命令：</p>
-<p>cnpm install –save hexo-deployer-git</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cnpm install --save hexo-deployer-git</span><br></pre></td></tr></table></figure>
+
 <p>然后进入 _config.yml 文件进行修改，推荐使用文本编辑器Sublime Text或者Typora打开，拉到最底下deploy，设置如下：</p>
-<p>deploy: </p>
-<p>​      type: git</p>
-<p>​      repo: <a href="https://github.com/hello/hello.github.io.git" target="_blank" rel="noopener">https://github.com/hello/hello.github.io.git</a> (打开你的仓库复制过来详细网址)</p>
-<p>​      branch: maste</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">deploy: </span><br><span class="line"></span><br><span class="line">​      type: git</span><br><span class="line"></span><br><span class="line">​      repo: https:&#x2F;&#x2F;github.com&#x2F;hello&#x2F;hello.github.io.git &#x2F;&#x2F;打开你的github仓库复制过来详细网址</span><br><span class="line"></span><br><span class="line">​      branch: maste</span><br></pre></td></tr></table></figure>
+
 <p>然后保存设置即可。</p>
 <p>然后回到命令行，输入如下命令：</p>
-<p>git config –global user.email “email address”</p>
-<p>git config –global user.email “YourEmail”</p>
-<p>将email address和YourEmail修改成你的用户名和注册邮箱，然后再命令行中输入：hexo d，等待再弹出窗口中输入你的github用户名和密码进行登录，等待完成后即可用<a href="https://hello.github.io" target="_blank" rel="noopener">https://hello.github.io</a> 查看你的博客。（hello为示例用户名，具体请参看自己实际用户名）。</p>
-<p>至此，既成功搭建博客。</p>
-<p>下面介绍博文发布</p>
-<p>以前文同样方式打开Git Bash Here命令行，输入 hexo new “你的博客标题”，（命令行内创建完成会显示文章路径），就会在博客文件夹下source文件夹内_posts里看到你的博文，使用前文提到的文本编辑器打开你刚创建的博文，使用markdown格式编写，编写完成后保存。</p>
-<p>返回命令行，输入hexo g 生成静态页面文件。</p>
-<p>输入 hexo s 启动本地服务器，在<a href="https://localhost:4000" target="_blank" rel="noopener">https://localhost:4000</a> 预览，无问题则回到命令行输入ctrl+c结束本地服务器，输入命令hexo clean回车后在输入hexo d ，等待几分钟后打开博客地址，成功发布博客。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">git config --global user.email &quot;email address&quot;</span><br><span class="line"></span><br><span class="line">git config --global user.email &quot;YourEmail&quot;</span><br></pre></td></tr></table></figure>
+
+<p>将email address和YourEmail修改成你的用户名和注册邮箱，然后再命令行中输入：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo d</span><br></pre></td></tr></table></figure>
+
+<p>，等待再弹出窗口中输入你的github用户名和密码进行登录，等待完成后即可用<a href="https://hello.github.io" target="_blank" rel="noopener">https://hello.github.io</a> 查看你的博客。（hello为示例用户名，具体请参看自己实际用户名）。</p>
+<p><strong>至此，既成功搭建博客</strong>。</p>
+<p><strong>下面介绍博文发布</strong></p>
+<p>以前文同样方式打开Git Bash Here命令行，输入</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo new &#39;你的博客标题&#39;</span><br></pre></td></tr></table></figure>
+
+<p>，（命令行内创建完成会显示文章路径），就会在博客文件夹下source文件夹内_posts里看到你的博文，使用前文提到的文本编辑器打开你刚创建的博文，使用markdown格式编写，编写完成后保存。</p>
+<p>返回命令行，输入</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo g</span><br></pre></td></tr></table></figure>
+
+<p>生成静态页面文件。</p>
+<p>输入 </p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo s</span><br></pre></td></tr></table></figure>
+
+<p>启动本地服务器，在<a href="https://localhost:4000" target="_blank" rel="noopener">https://localhost:4000</a> 预览，无问题则回到命令行输入ctrl+c结束本地服务器，输入命令</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo clean</span><br></pre></td></tr></table></figure>
+
+<p>回车后在输入</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo d</span><br></pre></td></tr></table></figure>
+
+<p> ，等待几分钟后打开博客地址，成功发布博客。</p>
 <p>流程为：</p>
-<p>hexo n title –&gt; 修改title内容 –&gt; hexo g –&gt; hexo s –&gt; hexo clean –&gt; hexo d</p>
-<p>各个命令</p>
-<ol>
-<li><p>hexo new/hexo n：创建新博文</p>
-</li>
-<li><p>hexo generate/hexo g：在本地生成静态页面文件，并保存到public文件夹下。</p>
-</li>
-<li><p>hexo server/hexo s:启用本地服务器，在<a href="https://localhost:4000" target="_blank" rel="noopener">https://localhost:4000</a> 预览。</p>
-</li>
-<li><p>hexo clean/hexo c：清除本地以前生成的静态页面文件。</p>
-</li>
-<li><p>hexo deploy/hexo d：上传部署到 Github。</p>
-</li>
-</ol>
+<p><code>hexo n title</code> –&gt; 修改title内容 –&gt; <code>hexo g</code> –&gt; <code>hexo s</code> –&gt; <code>hexo clean</code> –&gt; <code>hexo d</code></p>
+<p>各个命令：</p>
+<ul>
+<li><code>hexo new</code>/<code>hexo n</code>：创建新博文</li>
+<li><code>hexo generate</code>/<code>hexo g</code>：在本地生成静态页面文件，并保存到public文件夹下。</li>
+<li><code>hexo server</code>/<code>hexo s</code>:启用本地服务器，在<a href="https://localhost:4000" target="_blank" rel="noopener">https://localhost:4000</a> 预览。</li>
+<li><code>hexo clean</code>/<code>hexo c</code>：清除本地以前生成的静态页面文件。</li>
+<li><code>hexo deploy</code>/<code>hexo d</code>：上传部署到 Github。</li>
+</ul>
 <h4 id="注意事项"><a href="#注意事项" class="headerlink" title="注意事项"></a>注意事项</h4><ol>
 <li>因为各个版本不同以及个人电脑差别，搭建过程可能会有些许出入，但大体相同。</li>
-<li>不得不说可能需要学习一下markdown，因为你写的东西可能不仅仅导致hexo g 执行失败。</li>
+<li>不得不说可能需要学习一下markdown，因为你写的东西可能导致莫名其妙的错误。</li>
 <li>欢迎大家友好交流，因评论功能还未设置完善，建议请联系：<a href="mailto:2363775632@qq.com">2363775632@qq.com</a></li>
 </ol>
 <hr>
