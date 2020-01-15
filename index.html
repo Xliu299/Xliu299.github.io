@@ -79,12 +79,12 @@
 
 
 
-<meta name="description" content="做自己就好">
+<meta name="description" content="尽力做好该做的">
 <meta property="og:type" content="website">
 <meta property="og:title" content="朽木の博客">
 <meta property="og:url" content="http://yoursite.com/index.html">
 <meta property="og:site_name" content="朽木の博客">
-<meta property="og:description" content="做自己就好">
+<meta property="og:description" content="尽力做好该做的">
 <meta property="article:author" content="XLiu299">
 <meta name="twitter:card" content="summary">
 
@@ -158,7 +158,7 @@
       </a>
     </div>
       
-        <p class="site-subtitle">记录自己学习经历及日常遇到的问题</p>
+        <p class="site-subtitle"></p>
       
   </div>
 
@@ -388,22 +388,22 @@
 <p>输入命令：</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo s</span><br></pre></td></tr></table></figure>
 
-<p>运行本地服务器，运行完成会显示地址，通常是是: localhost:4000，打开浏览器输入该地址就可以查看到你的博客初始的样子，系统会自动生成一篇helloworld博文。</p>
+<p>运行本地服务器，运行完成会显示地址，通常是在<a href="https://localhost:4000" target="_blank" rel="noopener">https://localhost:4000</a> ，打开浏览器输入该地址就可以查看到你的博客初始的样子，系统会自动生成一篇helloworld博文。</p>
 <p><strong>至此，博客算是初步搭建完成，接下来就是部署到远端。</strong></p>
 <p>按原方法打开命令行，输入命令：</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cnpm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure>
 
-<p>然后进入 _config.yml 文件进行修改，推荐使用文本编辑器Sublime Text或者Typora打开，拉到最底下deploy，设置如下：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">deploy: </span><br><span class="line"></span><br><span class="line">​      type: git</span><br><span class="line"></span><br><span class="line">​      repo: https:&#x2F;&#x2F;github.com&#x2F;hello&#x2F;hello.github.io.git &#x2F;&#x2F;打开你的github仓库复制过来详细网址</span><br><span class="line"></span><br><span class="line">​      branch: master</span><br></pre></td></tr></table></figure>
+<p>然后进入 _config.yml 文件进行修改，推荐使用文本编辑器Sublime Text或者Typora打开，拉到最底下deploy，设置如下：(hello为示例用户名，具体请参看自己实际用户名)</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">  repo: https:&#x2F;&#x2F;github.com&#x2F;hello&#x2F;hello.github.io.git</span><br><span class="line">  branch: master</span><br></pre></td></tr></table></figure>
 
 <p>然后保存设置即可。</p>
 <p>然后回到命令行，输入如下命令：（新版本可跳过如下命令)</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">git config --global user.name &quot;yourname&quot;</span><br><span class="line"></span><br><span class="line">git config --global user.email &quot;YourEmail&quot;</span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git config --global user.name &quot;yourname&quot;</span><br><span class="line">git config --global user.email &quot;yourEmail&quot;</span><br></pre></td></tr></table></figure>
 
 <p>将email address和YourEmail修改成你的用户名和注册邮箱，然后再命令行中输入：</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo d</span><br></pre></td></tr></table></figure>
 
-<p>，等待在<strong>弹窗</strong>中输入你的github用户名和密码进行登录，等待完成后即可用<a href="https://hello.github.io" target="_blank" rel="noopener">https://hello.github.io</a> 查看你的博客。（hello为示例用户名，具体请参看自己实际用户名）。</p>
+<p>，等待在<strong>弹窗</strong>中输入你的github用户名和密码进行登录，等待完成后即可用<a href="https://hello.github.io" target="_blank" rel="noopener">https://hello.github.io</a> 查看你的博客。</p>
 <p><strong>至此，既成功搭建博客</strong>。</p>
 <p><strong>下面介绍博文发布</strong></p>
 <p>以前文同样方式打开Git Bash Here命令行，输入</p>
@@ -425,7 +425,7 @@
 
 <p> ，等待几分钟后打开博客地址，成功发布博客。</p>
 <p>流程为：</p>
-<p><code>hexo n title</code> –&gt; 修改title内容 –&gt; <code>hexo g</code> –&gt; <code>hexo s</code> –&gt; <code>hexo clean</code> –&gt; <code>hexo d</code></p>
+<p><code>hexo n title</code> –&gt; 修改title内容 –&gt; <code>hexo g</code> –&gt; <code>hexo s</code> –&gt;本地预览–&gt; <code>hexo clean</code> –&gt; <code>hexo d</code></p>
 <p>各个命令：</p>
 <ul>
 <li><code>hexo new</code>/<code>hexo n</code>：创建新博文</li>
@@ -657,7 +657,7 @@
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
               <p class="site-author-name" itemprop="name">XLiu299</p>
-              <p class="site-description motion-element" itemprop="description">做自己就好</p>
+              <p class="site-description motion-element" itemprop="description">尽力做好该做的</p>
           </div>
 
           <nav class="site-state motion-element">
