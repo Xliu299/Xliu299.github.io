@@ -4,7 +4,9 @@
     <title>Hexo博客总结</title>
     <url>/2020/02/24/Hexo%E5%8D%9A%E5%AE%A2%E6%80%BB%E7%BB%93/</url>
     <content><![CDATA[<hr>
-<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>尝试多了，经验多了，才有提高！</p>
+<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>尝试多了，失败多了，经验多了，就会提高！</p>
+<a id="more"></a>
+
 <p>目前比较火的博客框架很多，后来都接触了一些后选择了hexo，并且常用到GitHub，就决定把博客部署到GitHub上，截至目前，基本的功能都有完善，总的来说是基本成功了。下面来说说搭建过程中遇到的问题吧。</p>
 <p>前一篇帖子已经介绍了如何再windows10上通过hexo+GitHub搭建个人博客。这篇帖子就不再赘述.</p>
 <p>因为hexo博客的话，目前最火的主题就是next了，很多大佬都在维护，目前已经7代了，免费、简洁、优雅，这是我的直观感受。有了博客总要个性化一下！！于是：首先博客自然是让人看的，那自然就需要评论。我采用的是gitalk，<del>攻略网上铺天盖地</del>。因为一开始使用的是老版的next，内置并没有gitalk，所以就查攻略，各种操作让人头疼眼花。最可怕的问题是：<strong><u><em>Error: bad credentials</em></u></strong>。关键还搜不到问题原因是啥，有人说是配置时没有加引号，还有有人说是域名问题，都尝试一下，又是加引号，又是注册域名并解析，然后问题依旧存在！！！后来看next官方文档，突然发现next新版已经内置了gitalk，所以为什么我要那么麻烦？？！立刻升级！！！因为next是有众多大佬在维护的，很多优秀的技术都会运用在其中。查看新版配置文件就能发现很多功能都已经内置了，只需要根据需求打开就行了。发现了新版之后，立马结合官方文档改进设置，一切都那么水到渠成。</p>
@@ -25,7 +27,9 @@
   <entry>
     <title>搭建hexo博客</title>
     <url>/2020/01/13/%E6%90%AD%E5%BB%BAhexo%E5%8D%9A%E5%AE%A2/</url>
-    <content><![CDATA[<h4 id="写在前面"><a href="#写在前面" class="headerlink" title="写在前面"></a>写在前面</h4><p>网上对基于hexo框架实现部署在github上搭建个人主页的教程很多，这篇博文是对我自己搭建博客的一个过程记录，使用的是win10电脑，因为对markdown不是很熟悉，故记录稍显粗略，以后还会补充完善，下面是搭建过程，搭建时结合官方文档<a href="https://hexo.io/zh-cn/docs/" target="_blank" rel="noopener">https://hexo.io/zh-cn/docs/</a></p>
+    <content><![CDATA[<h4 id="写在前面"><a href="#写在前面" class="headerlink" title="写在前面"></a>写在前面</h4><p>网上对基于hexo框架实现部署在github上搭建个人主页的教程简直<del>铺天盖地</del>，这篇博文呢是对我自己搭建博客的一个过程记录。使用的是Window10电脑，因为对markdown语法不是很熟悉，故记录稍显粗略，下面是搭建过程，搭建时结合官方文档一同查看<a href="https://hexo.io/zh-cn/docs/" target="_blank" rel="noopener">https://hexo.io/zh-cn/docs/</a></p>
+<a id="more"></a>
+
 <h4 id="搭建过程"><a href="#搭建过程" class="headerlink" title="搭建过程"></a>搭建过程</h4><p>因为要部署在github上，所以需要注册github账号，注册过程就不再赘述，注册成功进入个人主页后点击右上角加号创建仓库，仓库名必须为：用户名+github.io 例如：你的用户名是：hello,那你的仓库名就应该为:hello.github.io，这个就是你博客的访问地址。</p>
 <p>从网站<a href="https://gitforwindows.org/" target="_blank" rel="noopener">https://gitforwindows.org/</a>下载git，下载安装一路next即可。</p>
 <p>因为hexo是基于node.js的，故需要从网站<a href="https://nodejs.org/en/" target="_blank" rel="noopener">https://nodejs.org/en/</a> 上下载，下载长期支持版既LTS版即可。下载后安装，一路next即可。</p>
@@ -134,9 +138,10 @@
     <title>我的第一篇博文</title>
     <url>/2020/01/08/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E6%96%87/</url>
     <content><![CDATA[<h3 id="写在前面"><a href="#写在前面" class="headerlink" title="写在前面"></a>写在前面</h3><p>偶尔会写一写东西，主要用来记录一些想法和分享一些学习经历。</p>
-<h3 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h3><p>新年之始的初尝试，<br>总的来说还算是成功的，<br>以后还会进一步学习及完善，<br>加油，</p>
-<hr>
-]]></content>
+<a id="more"></a>
+
+<h3 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h3><p>新年之始的初尝试，<br>总的来说还算是成功的，<br>以后还会进一步学习及完善，</p>
+<h2 id="加油，"><a href="#加油，" class="headerlink" title="加油，"></a>加油，</h2>]]></content>
       <categories>
         <category>日常</category>
       </categories>
