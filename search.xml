@@ -1,19 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>我的第一篇博文</title>
-    <url>/2020/01/08/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E6%96%87/</url>
-    <content><![CDATA[<h3 id="大成功"><a href="#大成功" class="headerlink" title="大成功"></a>大成功</h3><p>还是挺兴奋的，虽然是照着别人的流程做的，但还算是完成了，大成功。慢慢提升，慢慢丰富，加油。<br>偶尔会写一写东西，主要用来记录一些想法和分享一些学习经历。</p>
-<a id="more"></a>
+    <title>Hexo博客总结</title>
+    <url>/2020/01/24/Hexo%E5%8D%9A%E5%AE%A2%E6%80%BB%E7%BB%93/</url>
+    <content><![CDATA[<hr>
+<h2 id="Error-bad-credentials"><a href="#Error-bad-credentials" class="headerlink" title="Error: bad credentials"></a>Error: bad credentials</h2><a id="more"></a>
 
+<p>目前比较火的博客框架很多，后来都接触了一些后选择了hexo，并且常用到GitHub，就决定把博客部署到GitHub上，截至目前，基本的功能都有完善，总的来说是大获成功了。下面来说说搭建过程中遇到的问题吧。</p>
+<p>因为hexo博客的话，目前最火的主题就是next了，开源的，目前已经7代了，免费、简洁、优雅，这是我的直观感受。有了博客总要个性化一下！！<br>于是：首先博客自然是让人看的，那自然就需要评论。我采用的是gitalk，<del>攻略网上铺天盖地</del>。因为一开始使用的是老版的next，内置并没有gitalk，所以就查攻略，各种操作让人头疼眼花。最可怕的问题是：</p>
+<h3 id="Error-bad-credentials-1"><a href="#Error-bad-credentials-1" class="headerlink" title="Error: bad credentials"></a><strong><em>Error: bad credentials</em></strong></h3><p>关键还搜不到问题原因是啥，有人说是配置时没有加引号，还有有人说是域名问题，都尝试一下，又是加引号，又是注册域名并解析，然后问题依旧存在！！！后来看next官方文档，突然发现next新版已经内置了gitalk，所以为什么我要那么麻烦？？！立刻升级！！！因为next是开源的，社区有众多大牛在维护的，很多优秀的技术都会运用在其中。查看新版配置文件就能发现很多功能都已经内置了，只需要根据需求打开就行了。发现了新版之后，立马结合官方文档改进设置，一切都那么水到渠成。<br>尝试多了，失败多了，经验多了，就会提高！</p>
 <hr>
-<h3 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h3><p>新年之始的初尝试,<br>总的来说还算是成功的，<br>以后还会进一步学习及完善，<br>加油</p>
+<h2 id="备注"><a href="#备注" class="headerlink" title="备注"></a>备注</h2><ol>
+<li>网上攻略良莠不齐，还是推荐看官方文档自己摸索，对自己有很大提升。目前新版配置比较优秀的教程，推荐这篇：<a href="https://mp.weixin.qq.com/s/4gduKACM_o0WV6TLgTnwOA" target="_blank" rel="noopener">https://mp.weixin.qq.com/s/4gduKACM_o0WV6TLgTnwOA</a>。</li>
+<li>专注提升自己，加油！</li>
+</ol>
 ]]></content>
       <categories>
-        <category>日常</category>
+        <category>博客搭建</category>
       </categories>
       <tags>
-        <tag>日常</tag>
+        <tag>hexo</tag>
       </tags>
   </entry>
   <entry>
@@ -39,7 +45,7 @@
 </li>
 </ol>
 <h4 id="图片改动"><a href="#图片改动" class="headerlink" title="图片改动"></a>图片改动</h4><p>   只实现图片插入还不够，还需要图片大小、位置方面的一些改动，看这张图 <img src="/2020/03/06/%E5%9B%BE%E7%89%87%E6%B5%8B%E8%AF%95/1.jpg" class="" width="300" height="150" title="枫林"><br>   显然可以看出大小是不同的，这采用的也是标签插件，语法为和上述4中语法相同。</p>
-   <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&#123;% asset_img example.jpg weight hight %&#125;</span><br></pre></td></tr></table></figure>
+   <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&#123;% asset_img example.jpg width height %&#125;</span><br></pre></td></tr></table></figure>
 
 <p>   当然，标签插件(Tag Plugins)的用途可不仅仅知识用来插入图片，官方文档为：<a href="https://hexo.io/zh-cn/docs/tag-plugins.html" target="_blank" rel="noopener">https://hexo.io/zh-cn/docs/tag-plugins.html</a>，其余更多用途需要时看文档直接使用就好。</p>
 ]]></content>
@@ -51,25 +57,22 @@
       </tags>
   </entry>
   <entry>
-    <title>Hexo博客总结</title>
-    <url>/2020/01/24/Hexo%E5%8D%9A%E5%AE%A2%E6%80%BB%E7%BB%93/</url>
+    <title>它蓝屏了</title>
+    <url>/2020/03/13/%E5%AE%83%E8%93%9D%E5%B1%8F%E4%BA%86/</url>
     <content><![CDATA[<hr>
-<h2 id="Error-bad-credentials"><a href="#Error-bad-credentials" class="headerlink" title="Error: bad credentials"></a>Error: bad credentials</h2><a id="more"></a>
+<p>​  从2018年下，也就是大二上半年入手到现在，也有一年半了，hp的本子，颜值高重量小加上配置中等完全满足日常学习，总的来说还是非常满意的。在这一年多的学习路上，它一直坚守在第一线。直到今天，它终于又一次蓝屏了，但这一次，它再也没自己醒来。</p>
+<a id="more"></a>
 
-<p>目前比较火的博客框架很多，后来都接触了一些后选择了hexo，并且常用到GitHub，就决定把博客部署到GitHub上，截至目前，基本的功能都有完善，总的来说是大获成功了。下面来说说搭建过程中遇到的问题吧。</p>
-<p>因为hexo博客的话，目前最火的主题就是next了，开源的，目前已经7代了，免费、简洁、优雅，这是我的直观感受。有了博客总要个性化一下！！<br>于是：首先博客自然是让人看的，那自然就需要评论。我采用的是gitalk，<del>攻略网上铺天盖地</del>。因为一开始使用的是老版的next，内置并没有gitalk，所以就查攻略，各种操作让人头疼眼花。最可怕的问题是：</p>
-<h3 id="Error-bad-credentials-1"><a href="#Error-bad-credentials-1" class="headerlink" title="Error: bad credentials"></a><strong><em>Error: bad credentials</em></strong></h3><p>关键还搜不到问题原因是啥，有人说是配置时没有加引号，还有有人说是域名问题，都尝试一下，又是加引号，又是注册域名并解析，然后问题依旧存在！！！后来看next官方文档，突然发现next新版已经内置了gitalk，所以为什么我要那么麻烦？？！立刻升级！！！因为next是开源的，社区有众多大牛在维护的，很多优秀的技术都会运用在其中。查看新版配置文件就能发现很多功能都已经内置了，只需要根据需求打开就行了。发现了新版之后，立马结合官方文档改进设置，一切都那么水到渠成。<br>尝试多了，失败多了，经验多了，就会提高！</p>
+<p>​  蓝屏后就卡住不动了，回想起来，电脑上就开发工具、聊天软件之类的，也没什么全家桶之类的乱七八糟的软件，果然蓝屏都是莫名的错误。没办法，只能强制关机了。然后启动就发现一直在<strong>自动修复</strong>界面，就开不开机了。网上搜了很多，都没有具体说的，没办法，进入高级选项各类操作都尝试过了，禁用驱动签名也试了，都不行，只好用最麻烦也是最简单的方法-<strong>重装系统</strong>，好在之前的所有数据都在D盘中储存着在，基本不会丢失，因为重装系统默认使用C盘会对其格式化，所以<strong>最好不要把数据存在C盘</strong>里，或是就直接不要动C盘内数据。重装的过程比较简单，就是比较费时。之后就是重新部署各类环境了，就比较轻驾熟路了。用了一个多小时，终于解决了这次较为困难的蓝屏。</p>
+<p>​  <strong><em>再好的系统都总会有各种各样的错误，</em></strong></p>
+<p>​  <strong><em>所以备份自己的信息数据就尤为重要！</em></strong></p>
 <hr>
-<h2 id="备注"><a href="#备注" class="headerlink" title="备注"></a>备注</h2><ol>
-<li>网上攻略良莠不齐，还是推荐看官方文档自己摸索，对自己有很大提升。目前新版配置比较优秀的教程，推荐这篇：<a href="https://mp.weixin.qq.com/s/4gduKACM_o0WV6TLgTnwOA" target="_blank" rel="noopener">https://mp.weixin.qq.com/s/4gduKACM_o0WV6TLgTnwOA</a>。</li>
-<li>专注提升自己，加油！</li>
-</ol>
 ]]></content>
       <categories>
-        <category>博客搭建</category>
+        <category>记录</category>
       </categories>
       <tags>
-        <tag>hexo</tag>
+        <tag>Win10</tag>
       </tags>
   </entry>
   <entry>
@@ -183,22 +186,19 @@
       </tags>
   </entry>
   <entry>
-    <title>它蓝屏了</title>
-    <url>/2020/03/13/%E5%AE%83%E8%93%9D%E5%B1%8F%E4%BA%86/</url>
-    <content><![CDATA[<hr>
-<p>​  从2018年下，也就是大二上半年入手到现在，也有一年半了，hp的本子，颜值高重量小加上配置中等完全满足日常学习，总的来说还是非常满意的。在这一年多的学习路上，它一直坚守在第一线。直到今天，它终于又一次蓝屏了，但这一次，它再也没自己醒来。</p>
+    <title>我的第一篇博文</title>
+    <url>/2020/01/08/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E6%96%87/</url>
+    <content><![CDATA[<h3 id="大成功"><a href="#大成功" class="headerlink" title="大成功"></a>大成功</h3><p>还是挺兴奋的，虽然是照着别人的流程做的，但还算是完成了，大成功。慢慢提升，慢慢丰富，加油。<br>偶尔会写一写东西，主要用来记录一些想法和分享一些学习经历。</p>
 <a id="more"></a>
 
-<p>​  蓝屏后就卡住不动了，回想起来，电脑上就开发工具、聊天软件之类的，也没什么全家桶之类的乱七八糟的软件，果然蓝屏都是莫名的错误。没办法，只能强制关机了。然后启动就发现一直在<strong>自动修复</strong>界面，就开不开机了。网上搜了很多，都没有具体说的，没办法，进入高级选项各类操作都尝试过了，禁用驱动签名也试了，都不行，只好用最麻烦也是最简单的方法-<strong>重装系统</strong>，好在之前的所有数据都在D盘中储存着在，基本不会丢失，因为重装系统默认使用C盘会对其格式化，所以<strong>最好不要把数据存在C盘</strong>里，或是就直接不要动C盘内数据。重装的过程比较简单，就是比较费时。之后就是重新部署各类环境了，就比较轻驾熟路了。用了一个多小时，终于解决了这次较为困难的蓝屏。</p>
-<p>​  <strong><em>再好的系统都总会有各种各样的错误，</em></strong></p>
-<p>​  <strong><em>所以备份自己的信息数据就尤为重要！</em></strong></p>
 <hr>
+<h3 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h3><p>新年之始的初尝试,<br>总的来说还算是成功的，<br>以后还会进一步学习及完善，<br>加油</p>
 ]]></content>
       <categories>
-        <category>记录</category>
+        <category>日常</category>
       </categories>
       <tags>
-        <tag>Win10</tag>
+        <tag>日常</tag>
       </tags>
   </entry>
 </search>
