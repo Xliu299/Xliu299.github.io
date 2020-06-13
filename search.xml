@@ -8,11 +8,11 @@
 
 <p>目前比较火的博客框架很多，后来都接触了一些后选择了hexo，并且常用到GitHub，就决定把博客部署到GitHub上，截至目前，基本的功能都有完善，总的来说是大获成功了。下面来说说搭建过程中遇到的问题吧。</p>
 <p>因为hexo博客的话，目前最火的主题就是next了，开源的，目前已经7代了，免费、简洁、优雅，这是我的直观感受。有了博客总要个性化一下！！<br>于是：首先博客自然是让人看的，那自然就需要评论。我采用的是gitalk，<del>攻略网上铺天盖地</del>。因为一开始使用的是老版的next，内置并没有gitalk，所以就查攻略，各种操作让人头疼眼花。最可怕的问题是：</p>
-<h3 id="Error-bad-credentials-1"><a href="#Error-bad-credentials-1" class="headerlink" title="Error: bad credentials"></a><strong><em>Error: bad credentials</em></strong></h3><p>关键还搜不到问题原因是啥，有人说是配置时没有加引号，还有有人说是域名问题，都尝试一下，又是加引号，又是注册域名并解析，然后问题依旧存在！！！后来看next官方文档，突然发现next新版已经内置了gitalk，所以为什么我要那么麻烦？？！立刻升级！！！因为next是开源的，社区有众多大牛在维护的，很多优秀的技术都会运用在其中。查看新版配置文件就能发现很多功能都已经内置了，只需要根据需求打开就行了。发现了新版之后，立马结合官方文档改进设置，一切都那么水到渠成。<br>尝试多了，失败多了，经验多了，就会提高！</p>
+<h3 id="Error-bad-credentials-1"><a href="#Error-bad-credentials-1" class="headerlink" title="Error: bad credentials"></a><strong><em>Error: bad credentials</em></strong></h3><p>关键还搜不到问题原因是啥，有人说是配置时没有加引号，还有有人说是域名问题，都尝试一下，又是加引号，又是注册域名并解析，然后问题依旧存在！！！后来看next官方文档，突然发现next新版已经内置了gitalk，所以为什么我要那么麻烦？？！立刻升级！！！因为next是开源的，社区有众多大牛在维护的，很多优秀的技术都会运用在其中。查看新版配置文件就能发现很多功能都已经内置了，只需要根据需求打开就行了。发现了新版之后，立马结合官方文档改进设置，一切都那么水到渠成。</p>
 <hr>
 <h2 id="备注"><a href="#备注" class="headerlink" title="备注"></a>备注</h2><ol>
 <li>网上攻略良莠不齐，还是推荐看官方文档自己摸索，对自己有很大提升。目前新版配置比较优秀的教程，推荐这篇：<a href="https://mp.weixin.qq.com/s/4gduKACM_o0WV6TLgTnwOA" target="_blank" rel="noopener">https://mp.weixin.qq.com/s/4gduKACM_o0WV6TLgTnwOA</a>。</li>
-<li>专注提升自己，加油！</li>
+<li>多做尝试，多做思考，积累经验，才会提高！</li>
 </ol>
 ]]></content>
       <categories>
