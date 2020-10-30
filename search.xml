@@ -42,6 +42,38 @@
       </tags>
   </entry>
   <entry>
+    <title>广联达秋招Java面试</title>
+    <url>/2020/10/30/%E5%B9%BF%E8%81%94%E8%BE%BE%E7%A7%8B%E6%8B%9BJava%E9%9D%A2%E8%AF%95/</url>
+    <content><![CDATA[<h3 id="广联达-校招-Java开发岗"><a href="#广联达-校招-Java开发岗" class="headerlink" title="广联达 校招 Java开发岗"></a>广联达 校招 Java开发岗</h3><blockquote>
+<p>时间： 2020年10月29日</p>
+<p>地点：西安电子科技大学北校区</p>
+</blockquote>
+<!---->
+
+<hr>
+<h5 id="一面内容"><a href="#一面内容" class="headerlink" title="一面内容"></a>一面内容</h5><ol>
+<li>自我介绍，</li>
+<li>介绍一下简历上的项目，</li>
+<li>你对Mybatis的理解，你是如何使用的（理解不多，当时答得不好，就没再问了），</li>
+<li>说说你对多态的理解，</li>
+<li>Java集合使用的多么，你都用过那些，</li>
+<li>接上个问题，提到使用过Hashmap，谈谈你对其的理解（底层实现，hash冲突及扩容），</li>
+<li>Hashmap是线程安全的么，（答不知道，就没问了）</li>
+<li>给了一个场景：服务器A给服务器B发送一长串整数，再发送过程中损失了一个数。你是一个客户端C，求如何更快的找出缺失的这个数。（在C接受A\B数据并本地求解，结果时间复杂度过大？（没理解为什么）；求和计算，没考虑到超出整数范围。没有想出更好的解法，就没再问了）</li>
+<li>反问：存在C++与Java因公司要求调整岗位的么？（存在C++转Java😂）</li>
+</ol>
+<hr>
+<p>大概率是不行了，实在是自身不够水准，快调整调整心态吧！！！</p>
+<p><img src="https://raw.githubusercontent.com/Xliu299/PicGo/master/img/20201030201332.png" alt=""></p>
+]]></content>
+      <categories>
+        <category>面试</category>
+      </categories>
+      <tags>
+        <tag>Java</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>图片测试</title>
     <url>/2020/03/06/%E5%9B%BE%E7%89%87%E6%B5%8B%E8%AF%95/</url>
     <content><![CDATA[<h2 id="图片插入测试"><a href="#图片插入测试" class="headerlink" title="图片插入测试"></a>图片插入测试</h2><img src="/2020/03/06/%E5%9B%BE%E7%89%87%E6%B5%8B%E8%AF%95/1.jpg" class="">
@@ -205,36 +237,6 @@
       </categories>
       <tags>
         <tag>hexo</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>广联达秋招Java面试</title>
-    <url>/2020/10/30/%E5%B9%BF%E8%81%94%E8%BE%BE%E7%A7%8B%E6%8B%9BJava%E9%9D%A2%E8%AF%95/</url>
-    <content><![CDATA[<h3 id="广联达-校招-Java开发岗"><a href="#广联达-校招-Java开发岗" class="headerlink" title="广联达 校招 Java开发岗"></a>广联达 校招 Java开发岗</h3><blockquote>
-<p>时间： 2020年10月29日</p>
-<p>地点：西安电子科技大学北校区</p>
-</blockquote>
-<hr>
-<h5 id="一面内容"><a href="#一面内容" class="headerlink" title="一面内容"></a>一面内容</h5><ol>
-<li>自我介绍，</li>
-<li>介绍一下简历上的项目，</li>
-<li>你对Mybatis的理解，你是如何使用的（理解不多，当时答得不好，就没再问了），</li>
-<li>说说你对多态的理解，</li>
-<li>Java集合使用的多么，你都用过那些，</li>
-<li>接上个问题，提到使用过Hashmap，谈谈你对其的理解（底层实现，hash冲突及扩容），</li>
-<li>Hashmap是线程安全的么，（答不知道，就没问了）</li>
-<li>给了一个场景：服务器A给服务器B发送一长串整数，再发送过程中损失了一个数。你是一个客户端C，求如何更快的找出缺失的这个数。（在C接受A\B数据并本地求解，结果时间复杂度过大？（没理解为什么）；求和计算，没考虑到超出整数范围。没有想出更好的解法，就没再问了）</li>
-<li>反问：存在C++与Java因公司要求调整岗位的么？（存在C++转Java😂）</li>
-</ol>
-<hr>
-<p>大概率是不行了，实在是自身不够水准，快调整调整心态吧！！！</p>
-<p><img src="https://raw.githubusercontent.com/Xliu299/PicGo/master/img/20201030201332.png" alt=""></p>
-]]></content>
-      <categories>
-        <category>面试</category>
-      </categories>
-      <tags>
-        <tag>Java</tag>
       </tags>
   </entry>
 </search>
