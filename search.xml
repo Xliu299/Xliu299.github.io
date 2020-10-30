@@ -1,6 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>它蓝屏了</title>
+    <url>/2020/03/13/%E5%AE%83%E8%93%9D%E5%B1%8F%E4%BA%86/</url>
+    <content><![CDATA[<hr>
+<p>​  从2018年下，也就是大二上半年入手到现在，也有一年半了，hp的本子，颜值高重量小加上配置中等完全满足日常学习，总的来说还是非常满意的。在这一年多的学习路上，它一直坚守在第一线。直到今天，它终于又一次蓝屏了，但这一次，它再也没自己醒来。</p>
+<a id="more"></a>
+
+<p>​  蓝屏后就卡住不动了，回想起来，电脑上就开发工具、聊天软件之类的，也没什么全家桶之类的乱七八糟的软件，果然蓝屏都是莫名的错误。没办法，只能强制关机了。然后启动就发现一直在<strong>自动修复</strong>界面，就开不开机了。网上搜了很多，都没有具体说的，没办法，进入高级选项各类操作都尝试过了，禁用驱动签名也试了，都不行，只好用最麻烦也是最简单的方法-<strong>重装系统</strong>，好在之前的所有数据都在D盘中储存着在，基本不会丢失，因为重装系统默认使用C盘会对其格式化，所以<strong>最好不要把数据存在C盘</strong>里，或是就直接不要动C盘内数据。重装的过程比较简单，就是比较费时。之后就是重新部署各类环境了，就比较轻驾熟路了。用了一个多小时，终于解决了这次较为困难的蓝屏。</p>
+<p>​  <strong><em>再好的系统都总会有各种各样的错误，</em></strong></p>
+<p>​  <strong><em>所以备份自己的信息数据就尤为重要！</em></strong></p>
+<hr>
+]]></content>
+      <categories>
+        <category>记录</category>
+      </categories>
+      <tags>
+        <tag>Win10</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Hexo博客总结</title>
     <url>/2020/01/24/Hexo%E5%8D%9A%E5%AE%A2%E6%80%BB%E7%BB%93/</url>
     <content><![CDATA[<hr>
@@ -60,70 +79,6 @@
       </categories>
       <tags>
         <tag>hexo</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>它蓝屏了</title>
-    <url>/2020/03/13/%E5%AE%83%E8%93%9D%E5%B1%8F%E4%BA%86/</url>
-    <content><![CDATA[<hr>
-<p>​  从2018年下，也就是大二上半年入手到现在，也有一年半了，hp的本子，颜值高重量小加上配置中等完全满足日常学习，总的来说还是非常满意的。在这一年多的学习路上，它一直坚守在第一线。直到今天，它终于又一次蓝屏了，但这一次，它再也没自己醒来。</p>
-<a id="more"></a>
-
-<p>​  蓝屏后就卡住不动了，回想起来，电脑上就开发工具、聊天软件之类的，也没什么全家桶之类的乱七八糟的软件，果然蓝屏都是莫名的错误。没办法，只能强制关机了。然后启动就发现一直在<strong>自动修复</strong>界面，就开不开机了。网上搜了很多，都没有具体说的，没办法，进入高级选项各类操作都尝试过了，禁用驱动签名也试了，都不行，只好用最麻烦也是最简单的方法-<strong>重装系统</strong>，好在之前的所有数据都在D盘中储存着在，基本不会丢失，因为重装系统默认使用C盘会对其格式化，所以<strong>最好不要把数据存在C盘</strong>里，或是就直接不要动C盘内数据。重装的过程比较简单，就是比较费时。之后就是重新部署各类环境了，就比较轻驾熟路了。用了一个多小时，终于解决了这次较为困难的蓝屏。</p>
-<p>​  <strong><em>再好的系统都总会有各种各样的错误，</em></strong></p>
-<p>​  <strong><em>所以备份自己的信息数据就尤为重要！</em></strong></p>
-<hr>
-]]></content>
-      <categories>
-        <category>记录</category>
-      </categories>
-      <tags>
-        <tag>Win10</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>我的第一篇博文</title>
-    <url>/2020/01/08/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E6%96%87/</url>
-    <content><![CDATA[<h3 id="大成功"><a href="#大成功" class="headerlink" title="大成功"></a>大成功</h3><p>还是挺兴奋的，虽然是照着别人的流程做的，但还算是完成了，大成功。慢慢提升，慢慢丰富，加油。<br>偶尔会写一写东西，主要用来记录一些想法和分享一些学习经历。</p>
-<a id="more"></a>
-
-<hr>
-<h3 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h3><p>新年之始的初尝试,<br>总的来说还算是成功的，<br>以后还会进一步学习及完善，<br>加油</p>
-]]></content>
-      <categories>
-        <category>日常</category>
-      </categories>
-      <tags>
-        <tag>日常</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>广联达10月29日-线下面试</title>
-    <url>/2020/10/30/%E5%B9%BF%E8%81%94%E8%BE%BE10%E6%9C%8829%E6%97%A5-%E7%BA%BF%E4%B8%8B%E9%9D%A2%E8%AF%95/</url>
-    <content><![CDATA[<h3 id="广联达-校招-Java开发岗"><a href="#广联达-校招-Java开发岗" class="headerlink" title="广联达 校招 Java开发岗"></a>广联达 校招 Java开发岗</h3><blockquote>
-<p>时间： 2020年10月29日</p>
-<p>地点：西安电子科技大学北校区</p>
-</blockquote>
-<hr>
-<h5 id="一面内容"><a href="#一面内容" class="headerlink" title="一面内容"></a>一面内容</h5><ol>
-<li>自我介绍</li>
-<li>介绍一下简历上的项目</li>
-<li>你对Mybatis的理解，你是如何使用的（理解不多，当时答得不好，就没再问了）</li>
-<li>Java集合使用的多么，你都用过那些</li>
-<li>接上个问题，提到使用过Hashmap，谈谈你对其的理解（底层实现，hash冲突及扩容）</li>
-<li>Hashmap是线程安全的么，（答不知道，就没问了）</li>
-<li>给了一个场景：服务器A给服务器B发送一长串整数，再发送过程中损失了一个数。你是一个客户端，求如何更快的找出缺失的这个数。（没有想出更好的解法，就没再问了）</li>
-<li>反问：存在C++与Java因公司要求调整岗位的么？（存在C++转Java😂）</li>
-</ol>
-<hr>
-<p>大概率是不行了，实在是自身不够水准，快调整调整心态吧！！！</p>
-<p><img src="https://raw.githubusercontent.com/Xliu299/PicGo/master/img/20201030193040.png" alt=""></p>
-]]></content>
-      <categories>
-        <category>面试</category>
-      </categories>
-      <tags>
-        <tag>Java</tag>
       </tags>
   </entry>
   <entry>
@@ -234,6 +189,51 @@
       </categories>
       <tags>
         <tag>hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>广联达10月29日-线下面试</title>
+    <url>/2020/10/30/%E5%B9%BF%E8%81%94%E8%BE%BE%E7%A7%8B%E6%8B%9BJava%E9%9D%A2%E8%AF%95/</url>
+    <content><![CDATA[<h3 id="广联达-校招-Java开发岗"><a href="#广联达-校招-Java开发岗" class="headerlink" title="广联达 校招 Java开发岗"></a>广联达 校招 Java开发岗</h3><blockquote>
+<p>时间： 2020年10月29日</p>
+<p>地点：西安电子科技大学北校区</p>
+</blockquote>
+<hr>
+<h5 id="一面内容"><a href="#一面内容" class="headerlink" title="一面内容"></a>一面内容</h5><ol>
+<li>自我介绍</li>
+<li>介绍一下简历上的项目</li>
+<li>你对Mybatis的理解，你是如何使用的（理解不多，当时答得不好，就没再问了）</li>
+<li>Java集合使用的多么，你都用过那些</li>
+<li>接上个问题，提到使用过Hashmap，谈谈你对其的理解（底层实现，hash冲突及扩容）</li>
+<li>Hashmap是线程安全的么，（答不知道，就没问了）</li>
+<li>给了一个场景：服务器A给服务器B发送一长串整数，再发送过程中损失了一个数。你是一个客户端，求如何更快的找出缺失的这个数。（没有想出更好的解法，就没再问了）</li>
+<li>反问：存在C++与Java因公司要求调整岗位的么？（存在C++转Java😂）</li>
+</ol>
+<hr>
+<p>大概率是不行了，实在是自身不够水准，快调整调整心态吧！！！</p>
+<p><img src="https://raw.githubusercontent.com/Xliu299/PicGo/master/img/20201030193040.png" alt=""></p>
+]]></content>
+      <categories>
+        <category>面试</category>
+      </categories>
+      <tags>
+        <tag>Java</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>我的第一篇博文</title>
+    <url>/2020/01/08/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E6%96%87/</url>
+    <content><![CDATA[<h3 id="大成功"><a href="#大成功" class="headerlink" title="大成功"></a>大成功</h3><p>还是挺兴奋的，虽然是照着别人的流程做的，但还算是完成了，大成功。慢慢提升，慢慢丰富，加油。<br>偶尔会写一写东西，主要用来记录一些想法和分享一些学习经历。</p>
+<a id="more"></a>
+
+<hr>
+<h3 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h3><p>新年之始的初尝试,<br>总的来说还算是成功的，<br>以后还会进一步学习及完善，<br>加油</p>
+]]></content>
+      <categories>
+        <category>日常</category>
+      </categories>
+      <tags>
+        <tag>日常</tag>
       </tags>
   </entry>
 </search>
